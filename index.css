@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-100;
+}
+
+.container {
+    @apply max-w-md mx-auto p-5 bg-white rounded-lg shadow-lg;
+}
+
+h1 {
+    @apply text-3xl font-bold mb-4 text-gray-800;
+}
+
+#taskList {
+    @apply list-disc pl-5 mt-4;
+}
+
+#taskList li {
+    @apply flex justify-between items-center mb-2 p-2 bg-gray-50 rounded hover:bg-gray-200 transition;
+}
+
+#taskList li span {
+    @apply text-lg text-gray-700;
+}
+
+#taskList li button {
+    @apply p-1 mx-1 bg-red-500 text-white rounded hover:bg-red-600 transition;
+}
+
+.bg-yellow-500 {
+    @apply bg-yellow-500 text-white;
+}
+
+.bg-blue-500 {
+    @apply bg-blue-500 text-white rounded hover:bg-blue-600 transition;
+}
+
+input[type="text"] {
+    @apply border border-gray-300 rounded p-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 transition;
+}
+
+button {
+    @apply p-2 mt-2 w-full bg-blue-500 text-white rounded hover:bg-blue-600 transition;
+}
