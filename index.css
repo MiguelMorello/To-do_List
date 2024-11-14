@@ -1,47 +1,47 @@
 body {
-  background-color: #007BFF; /* Fundo azul */
-  color: white; /* Texto branco */
-  font-family: Arial, sans-serif; /* Fonte */
+  background-color: #007BFF; 
+  color: white; 
+  font-family: Arial, sans-serif; 
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Altura total da janela */
-  margin: 0; /* Remove margens padrão */
+  height: 100vh; 
+  margin: 0; 
 }
 
 .container {
-  text-align: center; /* Centraliza o texto */
-  width: 300px; /* Largura fixa para melhor centralização */
+  text-align: center; 
+  width: 300px;
   padding: 20px;
-  border-radius: 10px; /* Bordas arredondadas */
-  background-color: rgba(0, 0, 0, 0.5); /* Fundo com leve transparência */
+  border-radius: 10px; 
+  background-color: rgba(0, 0, 0, 0.5); 
 }
 
 input {
-  border: none; /* Remove borda padrão */
-  padding: 10px; /* Espaçamento interno */
-  width: 100%; /* Largura total */
-  margin-bottom: 10px; /* Espaço abaixo do input */
-  border-radius: 5px; /* Bordas arredondadas */
+  border: none; 
+  padding: 10px; 
+  width: 100%; 
+  margin-bottom: 10px;
+  border-radius: 5px; 
 }
 
 button {
-  background-color: white; /* Botão branco */
-  color: #007BFF; /* Texto do botão azul */
-  padding: 10px; /* Espaçamento interno */
-  border: none; /* Remove borda padrão */
-  border-radius: 5px; /* Bordas arredondadas */
-  cursor: pointer; /* Cursor de ponteiro */
-  transition: transform 0.3s ease; /* Transição suave para o hover */
+  background-color: white; 
+  color: #007BFF; 
+  padding: 10px; 
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer; 
+  transition: transform 0.3s ease; 
 }
 
 button:hover {
-  transform: scale(1.1); /* Aumenta o tamanho do botão ao passar o mouse */
+  transform: scale(1.1);
 }
 
 ul {
-  list-style-type: none; /* Remove marcadores da lista */
-  padding: 0; /* Remove padding padrão */
+  list-style-type: none; 
+  padding: 0; 
 }
 
 li {
